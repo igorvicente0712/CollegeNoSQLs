@@ -4,20 +4,20 @@ import random
 
 fake = Faker()
 
+subjects = ["Calculus", "Linear Algebra", "Programming", "Data Structures", "Algorithms", "Databases", "Networks", "Operating Systems", "Artificial Intelligence", "Machine Learning"]
+
 def generate_student_queries():
     queries = []
     for _ in range(10):
         student_id = uuid.uuid4()
-        name = fake.name().replace("'", "''")  # Escapar aspas simples
+        name = fake.name().replace("'", "''")
         course_id = uuid.uuid4()
         
-        # Criar o mapa de disciplinas concluídas com semestre, ano e nota final
         completed_subjects = {
-            f"subject_{i}": (random.randint(1, 2), random.randint(2019, 2023), round(random.uniform(5.0, 10.0), 2))
-            for i in range(3)
+            random.choice(subjects): (random.randint(1, 2), random.randint(2019, 2023), round(random.uniform(5.0, 10.0), 2))
+            for _ in range(3)
         }
         
-        # Converter o mapa para uma string no formato correto
         completed_subjects_str = '{' + ', '.join(
             f"'{subject}': ({semester}, {year}, {grade})"
             for subject, (semester, year, grade) in completed_subjects.items()
@@ -26,24 +26,21 @@ def generate_student_queries():
         query = f"INSERT INTO students (student_id, name, course_id, completed_subjects) VALUES ({student_id}, '{name}', {course_id}, {completed_subjects_str});"
         queries.append(query)
     
-    # Salvar as queries no arquivo
     with open("students_queries.cql", "w") as f:
         f.write("\n".join(queries))
-
+        
 def generate_professor_queries():
     queries = []
     for _ in range(5):
         professor_id = uuid.uuid4()
-        name = fake.name().replace("'", "''")  # Escapar aspas simples
+        name = fake.name().replace("'", "''")
         department_id = uuid.uuid4()
         
-        # Criar o mapa de disciplinas ensinadas com semestre e ano
         taught_subjects = {
-            f"subject_{i}": (random.randint(1, 2), random.randint(2019, 2023))
-            for i in range(3)
+            random.choice(subjects): (random.randint(1, 2), random.randint(2019, 2023))
+            for _ in range(3)
         }
         
-        # Converter o mapa para uma string no formato correto
         taught_subjects_str = '{' + ', '.join(
             f"'{subject}': ({semester}, {year})"
             for subject, (semester, year) in taught_subjects.items()
@@ -51,8 +48,7 @@ def generate_professor_queries():
         
         query = f"INSERT INTO professors (professor_id, name, department_id, taught_subjects) VALUES ({professor_id}, '{name}', {department_id}, {taught_subjects_str});"
         queries.append(query)
-    
-    # Salvar as queries no arquivo
+
     with open("professors_queries.cql", "w") as f:
         f.write("\n".join(queries))
 
