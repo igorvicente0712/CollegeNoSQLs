@@ -1,0 +1,34 @@
+Grupos de TCC, Alunos e Orientadores:
+Grupo: 4bc3ce28-88b7-43a6-9aee-303a4dbcfa09
+Orientador: Emilly Barros (ID: be846b2b-f7af-440a-9c16-df600f9a9885)
+Alunos:
+  - Eduardo Moreira (ID: 28dea18f-6b4b-455b-b934-6098371a3f75)
+  - Kevin Jesus (ID: fa6a2d30-0fa6-473d-a4d7-c3ea49fc0410)
+  - Nathan Ramos (ID: b81cea25-736c-44d3-95ad-82844bacbc21)
+  - André Farias (ID: c9b549c7-359f-4cb2-a6c2-e745efd95b08)
+  - Sr. Francisco Fogaça (ID: 8f6f01e8-0584-4b3a-afb2-a3d78a599672)
+--------------------
+Grupo: c503129d-57b4-484c-9bb0-ae02f5f5cec3
+Orientador: Alexandre da Luz (ID: 99a14dbc-37a9-44dd-8f7d-96bf2f70ef63)
+Alunos:
+  - Elisa Cunha (ID: cc89c6f8-c851-4800-9b65-db66510b32ce)
+  - Dr. Emanuel Santos (ID: 641a7594-338d-49cf-9e67-7a770d90a083)
+  - Marina Pereira (ID: ec7097c7-decc-4548-a630-2c58f5103082)
+  - Eduardo Moreira (ID: 28dea18f-6b4b-455b-b934-6098371a3f75)
+--------------------
+Grupo: a1a2e528-f90e-4d39-aa9a-a4c888462a27
+Orientador: Benício Pinto (ID: 1ac23727-4a89-4ac8-9200-1514d0bf8872)
+Alunos:
+  - André Farias (ID: c9b549c7-359f-4cb2-a6c2-e745efd95b08)
+  - Maria Fernanda Dias (ID: 85dff1fd-61a3-480f-a5f8-2a6c4b1c3117)
+  - Dr. Vitor Hugo Pinto (ID: 98174473-4013-4cde-8777-95f07e27237e)
+  - Srta. Beatriz Nascimento (ID: 4244f413-06dd-4463-af49-82a27c511ff8)
+  - Marina Pereira (ID: ec7097c7-decc-4548-a630-2c58f5103082)
+--------------------
+Grupo: e1e93d76-2e79-49f2-a05a-10efc724a5b2
+Orientador: Lara Carvalho (ID: c17e20d0-4c0c-4a0f-882c-9fe25b330480)
+Alunos:
+  - Sra. Luana Nascimento (ID: b7e664a7-27c0-44c4-bfac-115864513637)
+  - André Farias (ID: c9b549c7-359f-4cb2-a6c2-e745efd95b08)
+  - Elisa Cunha (ID: cc89c6f8-c851-4800-9b65-db66510b32ce)
+--------------------

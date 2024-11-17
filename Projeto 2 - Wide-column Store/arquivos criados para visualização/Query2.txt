@@ -1,0 +1,67 @@
+Professor: Emilly Barros (ID: be846b2b-f7af-440a-9c16-df600f9a9885)
+Departamento: acd55a3b-dfd4-43b4-a914-4958217d1728
+Disciplinas Ministradas:
+  - Banco de Dados: Semestre 2/2020
+  - Física II: Semestre 2/2019
+  - Programação I: Semestre 1/2024
+  - Programação II: Semestre 1/2020
+  - Química Geral: Semestre 2/2024
+  - Redes de Computadores: Semestre 2/2018
+--------------------
+Professor: Lara Carvalho (ID: c17e20d0-4c0c-4a0f-882c-9fe25b330480)
+Departamento: 3ab4a25d-af2b-437f-aefb-ba6f8c31505a
+Disciplinas Ministradas:
+  - Cálculo I: Semestre 1/2023
+  - Química Geral: Semestre 1/2019
+  - Álgebra Linear: Semestre 2/2022
+--------------------
+Professor: Luna Peixoto (ID: 4dd088b7-eed8-46e5-b32f-4f2d66cb246b)
+Departamento: a297e6c9-0af2-4ab0-a359-1edb9b8bfd58
+Disciplinas Ministradas:
+  - Cálculo I: Semestre 2/2022
+  - Cálculo II: Semestre 2/2020
+  - Física II: Semestre 2/2024
+  - Química Geral: Semestre 1/2020
+  - Álgebra Linear: Semestre 1/2022
+--------------------
+Professor: Benício Pinto (ID: 1ac23727-4a89-4ac8-9200-1514d0bf8872)
+Departamento: 3ab4a25d-af2b-437f-aefb-ba6f8c31505a
+Disciplinas Ministradas:
+  - Cálculo I: Semestre 2/2018
+  - Cálculo II: Semestre 2/2021
+  - Física II: Semestre 1/2023
+  - Programação II: Semestre 1/2022
+  - Álgebra Linear: Semestre 2/2022
+--------------------
+Professor: Erick Ribeiro (ID: aedda382-6058-4be5-9250-15e4e7cfee5c)
+Departamento: a297e6c9-0af2-4ab0-a359-1edb9b8bfd58
+Disciplinas Ministradas:
+  - Banco de Dados: Semestre 1/2024
+  - Física I: Semestre 1/2019
+  - Física II: Semestre 1/2020
+--------------------
+Professor: Alexandre da Luz (ID: 99a14dbc-37a9-44dd-8f7d-96bf2f70ef63)
+Departamento: acd55a3b-dfd4-43b4-a914-4958217d1728
+Disciplinas Ministradas:
+  - Banco de Dados: Semestre 1/2020
+  - Cálculo II: Semestre 2/2021
+  - Programação I: Semestre 2/2018
+  - Programação II: Semestre 1/2019
+  - Redes de Computadores: Semestre 2/2018
+--------------------
+Professor: Sr. Kevin da Paz (ID: 9da7d77a-f761-46f6-899a-2ecf2f5ef640)
+Departamento: 7f94519e-c2d5-44fe-ba19-7ba688427ff5
+Disciplinas Ministradas:
+  - Banco de Dados: Semestre 2/2020
+  - Física II: Semestre 2/2021
+  - Álgebra Linear: Semestre 1/2024
+--------------------
+Professor: Marcos Vinicius Lopes (ID: 078958a5-a6e7-4211-aa66-862974507e0d)
+Departamento: a297e6c9-0af2-4ab0-a359-1edb9b8bfd58
+Disciplinas Ministradas:
+  - Física I: Semestre 1/2020
+  - Física II: Semestre 1/2022
+  - Programação I: Semestre 1/2019
+  - Programação II: Semestre 1/2019
+  - Química Geral: Semestre 2/2021
+--------------------

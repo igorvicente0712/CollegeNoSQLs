@@ -1,0 +1,36 @@
+Chefes de Departamento e suas Disciplinas:
+Departamento: Lima S/A (ID: 3ab4a25d-af2b-437f-aefb-ba6f8c31505a)
+Chefe: ID 93aea4a2-d604-4528-b0c4-f0a23b417ac7. 
+Disciplinas:
+  - Física I
+--------------------
+Departamento: da Luz da Rosa Ltda. (ID: 7f94519e-c2d5-44fe-ba19-7ba688427ff5)
+Chefe: ID 1e4c29f8-f877-49c9-8dba-8be543a1bb13. 
+Disciplinas:
+  - Álgebra Linear
+--------------------
+Departamento: Nunes Ltda. (ID: a10a3e3f-fa8f-419d-94a7-9f409ee13ceb)
+Chefe: ID 3291fe4d-4633-4ca2-82cd-bd0b9ca8320a. 
+Disciplinas:
+  - Redes de Computadores
+--------------------
+Departamento: Peixoto S/A (ID: 979a5884-1caa-45e6-b9ce-9a344b12fdec)
+Chefe: ID d0a45938-ac4e-4f43-8896-f48bcbf4bac2. 
+Disciplinas:
+  - Cálculo II
+--------------------
+Departamento: da Rosa (ID: acd55a3b-dfd4-43b4-a914-4958217d1728)
+Chefe: ID b926bfe9-e8f2-4d38-99ce-c0266bb5723c. 
+Disciplinas:
+  - Química Geral
+--------------------
+Departamento: Moraes e Filhos (ID: a297e6c9-0af2-4ab0-a359-1edb9b8bfd58)
+Chefe: ID 6ccc8aa5-c7b9-42e8-acb9-c2a27a449152. 
+Disciplinas:
+  - Química Geral
+--------------------
+Departamento: Nunes (ID: 59ab75bd-22a8-4c2b-a90d-ea6b19eed250)
+Chefe: ID 18bb4d7d-5edd-4e4d-9114-3e557e947995. 
+Disciplinas:
+  - Física II
+--------------------

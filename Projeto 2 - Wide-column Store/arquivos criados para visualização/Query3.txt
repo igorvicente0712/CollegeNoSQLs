@@ -1,0 +1,13 @@
+Aluno: Elisa Cunha (ID: cc89c6f8-c851-4800-9b65-db66510b32ce)
+Disciplinas Aprovadas (Semestre 1, Nota mínima 5.0):
+  - Programação II: Semestre 1/2024, Nota: 9.74
+--------------------
+Aluno: Eduardo Moreira (ID: 28dea18f-6b4b-455b-b934-6098371a3f75)
+Disciplinas Aprovadas (Semestre 1, Nota mínima 5.0):
+  - Programação I: Semestre 1/2020, Nota: 5.54
+  - Álgebra Linear: Semestre 1/2024, Nota: 7.03
+--------------------
+Aluno: Kevin Jesus (ID: fa6a2d30-0fa6-473d-a4d7-c3ea49fc0410)
+Disciplinas Aprovadas (Semestre 1, Nota mínima 5.0):
+  - Redes de Computadores: Semestre 1/2019, Nota: 8.48
+--------------------

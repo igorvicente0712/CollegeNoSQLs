@@ -1,0 +1,7 @@
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (3bc9acca-ec72-4536-be1b-f392e19701ff, 34dec095-9742-4d99-8bab-e34b5945e05f, 'Azevedo', { 'Física II' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (d3156cb3-7bd5-4159-9f47-ac7f9691e334, ab51d76b-04c8-474e-b522-51d29651b73e, 'Freitas Ltda.', { 'Química Geral' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (0dd04824-033e-4f7f-8ab8-bd3eba6d7fc0, 393f2b4f-12db-4230-a0e8-3f1fd66b5f96, 'Melo', { 'Cálculo I' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (457118a3-e1ce-41ac-bdde-4f4b71c6ab18, a6c2e9bc-c4bc-4d4d-a857-f291930f11e7, 'Jesus', { 'Cálculo II' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (3348b8d5-5056-4198-8b6f-14fb26b48e1d, fa8b5064-812f-427c-ab12-cc1d05fa48cf, 'Barros Freitas Ltda.', { 'Programação II' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (95becdcd-f587-4ef7-b83e-5c61923753a4, 9b6402e7-4816-40ad-b8d5-2a4193c43e31, 'das Neves', { 'Cálculo I' });
+INSERT INTO departamento (id_departamento, id_chefe_departamento, nome, disciplinas) VALUES (9582f439-98a0-4a28-9381-a2cea23d8012, 76b999c5-e593-4e97-847f-067fa72454a8, 'da Rosa', { 'Física I' });
