@@ -1,5 +1,6 @@
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
+import key
 
 def get_astra_session():
     cloud_config = {
@@ -7,7 +8,7 @@ def get_astra_session():
     }
     auth_provider = PlainTextAuthProvider('key.clientId', 'key.secret')
     cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
-    session = cluster.connect('fei') # Replace 'fei'
+    session = cluster.connect('fei') # Conectar ao keyspace "fei" 
     return session
 
 def create_tables(session):
