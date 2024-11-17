@@ -1,78 +1,59 @@
-import uuid
-from astrapy import DataAPIClient
-import faker
-import random
-from unidecode import unidecode
-
-ASTRA_DB_APPLICATION_TOKEN = "token do frifas aqui"
-ASTRA_DB_API_ENDPOINT = "codiginho do frifas aqui"
-
-# Inicializa o cliente
-client = DataAPIClient(token=ASTRA_DB_APPLICATION_TOKEN)
-db = client.get_database_by_api_endpoint(
-    ASTRA_DB_API_ENDPOINT,
-    keyspace="default_keyspace"
-)
-fk = faker.Faker('pt_BR')
-
-# --- Geração de Dados (Adaptada para NoSQL/Document DB) ---
-n_alunos = 100
-n_cursos = 7
-n_grupos = 20  # Número máximo de grupos
+from cassandra.cluster import Cluster
+from cassandra.auth import PlainTextAuthProvider
+import os
+import key
 
 
-alunos = []
-for _ in range(n_alunos):
-    nome = fk.name()
-    email = ".".join(unidecode(nome).split(" ")[:2]).lower() + "@collegedb.com"
-    id_curso = random.randint(1, n_cursos)
-    id_grupo = random.randint(1, n_grupos) if random.random() < 0.7 else None # 70% de chance de ter um grupo
-    # Usando UUIDs para os IDs no banco de dados NoSQL
-    id_aluno = str(uuid.uuid4())
+# Função para carregar as credenciais do AstraDB
+def get_astra_session():
+    cloud_config = {
+        'secure_connect_bundle': 'D:/secure-connect-projetodb.zip'
+    }
+    auth_provider = PlainTextAuthProvider('key.clientId', 'key.secret')
+    cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
+    session = cluster.connect('fei')  # Conectar ao keyspace "fei"
+    return session
 
-    alunos.append({
-        "id_aluno": id_aluno,  # Adicionando ID único
-        "nome": nome,
-        "email": email,
-        "id_curso": id_curso,
-        "id_grupo": id_grupo
-    })
+# Função para ler arquivos e executar comandos INSERT
+def execute_inserts_from_files(file_names):
+    session = get_astra_session()
+    for file_name in file_names:
+        if os.path.exists(file_name):
+            print(f"Lendo o arquivo: {file_name}")
+            try:
+                # Tenta abrir com UTF-8 primeiro
+                with open(file_name, 'r', encoding="utf-8") as file:
+                    commands = file.read().split(';')
+            except Exception as e:
+                print(f"Erro ao abrir com UTF-8: {e}")
+                try:
+                    # Se falhar, tenta abrir com encoding padrão
+                    print("Tentando abrir com encoding padrão do sistema...")
+                    with open(file_name, 'r') as file:
+                        commands = file.read().split(';')
+                except Exception as e2:
+                    print(f"Erro ao abrir o arquivo: {file_name}\nErro: {e2}")
+                    continue # Pula para o próximo arquivo se nenhum encoding funcionar
 
+            for command in commands:
+                command = command.strip()
+                if command.upper().startswith("INSERT"):
+                    try:
+                        session.execute(command + ";")
+                        print("Comando executado com sucesso:", command)
+                    except Exception as e:
+                        print(f"Erro ao executar o comando: {command}\nErro: {e}")
+        else:
+            print(f"Arquivo {file_name} não encontrado.")
 
-# --- Inserção no Astra DB ---
-
-collection_name = "aluno" # Nome da coleção
-
-try:
-    results = db[collection_name].insert_many(alunos)
-    print("Documentos inseridos com sucesso!")
-    print(f"Número de documentos inseridos: {len(results.inserted_ids)}")
-except Exception as e:
-    print(f"Erro ao inserir documentos: {e}")
-
-
-
-# --- Geração de outros dados (Adapte conforme necessário) ---
-'''
-# Exemplo para cursos:
-cursos = []
-nomes_cursos = [
-    "Ciência da Computação",
-    "Engenharia Elétrica",
-    # ... outros cursos
+# Lista de arquivos específicos para serem lidos
+file_names = [
+    "1alunos_formados.cql", 
+    "1alunos.cql", #UTF-8
+    "1departamentos.cql", 
+    "1grupo_proj.cql", 
+    "1professores.cql" #UTF-8
 ]
-for nome in nomes_cursos:
-  cursos.append({"id_curso": str(uuid.uuid4()), "nome": nome})
 
-collection_name = "curso"
-try:
-    results = db[collection_name].insert_many(cursos)
-    print("Cursos inseridos com sucesso!")
-    print(f"Número de cursos inseridos: {len(results.inserted_ids)}")
-except Exception as e:
-    print(f"Erro ao inserir cursos: {e}")
-'''
-
-
-# Repita o processo para as demais entidades (departamento, disciplina, etc.), 
-# adaptando a estrutura dos dados para o formato de documento e gerando UUIDs
+# Chamada da função
+execute_inserts_from_files(file_names)
