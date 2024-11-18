@@ -4,7 +4,7 @@ Este README descreve como configurar e executar o projeto 2, que utiliza o DataS
 
 ## Pré-requisitos
 
-* Conta no DataStax Astra ([astra.datastax.com](astra.datastax.com)).
+* Conta no DataStax Astra (astra.datastax.com)
 * Python versão 3.8 ou inferior.
 * `cassandra-driver` instalado via pip: `pip install cassandra-driver`  (Considere usar um ambiente virtual para isolar as dependências.)
 
