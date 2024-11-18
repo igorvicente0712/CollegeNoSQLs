@@ -21,6 +21,29 @@ Este projeto utiliza o DataStax Astra, um serviço de database totalmente gerenc
 
 Em resumo, o DataStax Astra, com seu modelo wide-column store, fornece uma solução robusta e escalável para os requisitos de armazenamento de dados deste projeto, facilitando o desenvolvimento e garantindo a confiabilidade e performance do sistema.
 
+<h2>Integrantes</h2>
+
+```json
+[
+  {
+    "Nome": "Yuri Bykoff",
+    "RA": "22.121.045-3"
+  },
+  {
+    "Nome": "Daniel Eiji Osato Yoshida",
+    "RA": "22.121.131-1"
+  },
+  {
+    "Nome": "Igor Vicente Cutalo",
+    "RA": "22.123.062-6"
+  },
+  {
+    "Nome": "Arthur Veloso",
+    "RA": "22.221.038-7"
+  }
+]
+```
+
 ## Pré-requisitos
 
 * Conta no DataStax Astra (astra.datastax.com)
