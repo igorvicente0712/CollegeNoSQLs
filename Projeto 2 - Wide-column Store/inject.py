@@ -1,7 +1,7 @@
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 import os
-import key
+
 
 
 # Função para carregar as credenciais do AstraDB
