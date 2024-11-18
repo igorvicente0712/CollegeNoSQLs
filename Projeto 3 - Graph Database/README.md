@@ -13,6 +13,29 @@ create_nodes.cypher - Arquivo com os dados de nodes gerados pela última vez par
 
 create_relationships.cypher - Arquivo com os dados de relações gerados pela última vez para o teste.
 
+<h2>Integrantes</h2>
+
+```json
+[
+  {
+    "Nome": "Yuri Bykoff",
+    "RA": "22.121.045-3"
+  },
+  {
+    "Nome": "Daniel Eiji Osato Yoshida",
+    "RA": "22.121.131-1"
+  },
+  {
+    "Nome": "Igor Vicente Cutalo",
+    "RA": "22.123.062-6"
+  },
+  {
+    "Nome": "Arthur Veloso",
+    "RA": "22.221.038-7"
+  }
+]
+```
+
 <h2>Dependências</h2>
 
 ```
