@@ -1,6 +1,5 @@
 import uuid
 import random
-import key
 
 from faker import Faker
 
