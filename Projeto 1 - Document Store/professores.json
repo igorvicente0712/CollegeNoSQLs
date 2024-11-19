@@ -1,85 +1,182 @@
 [
     {
-        "_id": "88480",
-        "nome": "Michael Cox",
+        "_id": "96945",
+        "nome": "Molly Franklin",
         "disciplinas": [
             {
-                "codigo": "57548",
-                "ano": 2022,
-                "semestre": 2
-            },
-            {
-                "codigo": "498715",
-                "ano": 2024,
+                "codigo": "68003",
+                "ano": 2023,
                 "semestre": 1
             },
             {
-                "codigo": "795618",
-                "ano": 2022,
+                "codigo": "659503",
+                "ano": 2024,
                 "semestre": 1
             }
         ]
     },
     {
-        "_id": "15408",
-        "nome": "William Cline",
+        "_id": "93595",
+        "nome": "Cindy Anderson",
         "disciplinas": [
             {
-                "codigo": "871224",
-                "ano": 2024,
-                "semestre": 2
-            },
-            {
-                "codigo": "57548",
-                "ano": 2024,
-                "semestre": 1
-            },
-            {
-                "codigo": "356751",
+                "codigo": "795235",
                 "ano": 2021,
                 "semestre": 1
+            },
+            {
+                "codigo": "752456",
+                "ano": 2021,
+                "semestre": 1
+            },
+            {
+                "codigo": "659503",
+                "ano": 2020,
+                "semestre": 1
             }
         ]
     },
     {
-        "_id": "54745",
-        "nome": "Amy Flores",
+        "_id": "33711",
+        "nome": "Manuel Jones",
         "disciplinas": [
             {
-                "codigo": "915425",
+                "codigo": "189486",
                 "ano": 2024,
                 "semestre": 2
             },
             {
-                "codigo": "57548",
-                "ano": 2020,
+                "codigo": "659503",
+                "ano": 2022,
+                "semestre": 1
+            }
+        ]
+    },
+    {
+        "_id": "69250",
+        "nome": "Carla Price",
+        "disciplinas": [
+            {
+                "codigo": "477128",
+                "ano": 2022,
+                "semestre": 1
+            },
+            {
+                "codigo": "513",
+                "ano": 2023,
                 "semestre": 2
             },
             {
-                "codigo": "356751",
+                "codigo": "916789",
                 "ano": 2021,
                 "semestre": 2
             }
         ],
-        "departamento": "8962"
+        "departamento": "1193"
     },
     {
-        "_id": "55899",
-        "nome": "Michael Wilson",
+        "_id": "91748",
+        "nome": "Lauren Johnson",
         "disciplinas": [
             {
-                "codigo": "498715",
+                "codigo": "46164",
+                "ano": 2023,
+                "semestre": 2
+            },
+            {
+                "codigo": "539918",
+                "ano": 2020,
+                "semestre": 2
+            }
+        ]
+    },
+    {
+        "_id": "45774",
+        "nome": "Alex Baker",
+        "disciplinas": [
+            {
+                "codigo": "256215",
+                "ano": 2023,
+                "semestre": 2
+            },
+            {
+                "codigo": "431163",
                 "ano": 2024,
                 "semestre": 2
             }
         ]
     },
     {
-        "_id": "52346",
-        "nome": "Shelley King",
+        "_id": "10984",
+        "nome": "David White",
         "disciplinas": [
             {
-                "codigo": "795618",
+                "codigo": "431163",
+                "ano": 2022,
+                "semestre": 1
+            },
+            {
+                "codigo": "46164",
+                "ano": 2021,
+                "semestre": 2
+            }
+        ],
+        "departamento": "2885"
+    },
+    {
+        "_id": "61789",
+        "nome": "Lance Rodriguez",
+        "disciplinas": [
+            {
+                "codigo": "663328",
+                "ano": 2021,
+                "semestre": 2
+            },
+            {
+                "codigo": "916789",
+                "ano": 2024,
+                "semestre": 1
+            },
+            {
+                "codigo": "400100",
+                "ano": 2024,
+                "semestre": 1
+            }
+        ],
+        "departamento": "5129"
+    },
+    {
+        "_id": "12229",
+        "nome": "Melissa Hickman",
+        "disciplinas": [
+            {
+                "codigo": "402383",
+                "ano": 2020,
+                "semestre": 1
+            },
+            {
+                "codigo": "256215",
+                "ano": 2020,
+                "semestre": 1
+            },
+            {
+                "codigo": "420267",
+                "ano": 2021,
+                "semestre": 1
+            }
+        ]
+    },
+    {
+        "_id": "33837",
+        "nome": "Amanda Williams",
+        "disciplinas": [
+            {
+                "codigo": "379144",
+                "ano": 2022,
+                "semestre": 2
+            },
+            {
+                "codigo": "752456",
                 "ano": 2022,
                 "semestre": 2
             }

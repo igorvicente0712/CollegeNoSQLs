@@ -6,15 +6,13 @@ from pymongo.server_api import ServerApi
 
 fake = Faker()
 
-# Configurações
-NUM_ALUNOS = 10
-NUM_PROFESSORES = 5
-NUM_CURSOS = 3
-NUM_DEPARTAMENTOS = 2
-NUM_DISCIPLINAS = 10
-NUM_GRUPOS_TCC = 3
+NUM_ALUNOS = 100
+NUM_PROFESSORES = 10
+NUM_CURSOS = 10
+NUM_DEPARTAMENTOS = 4
+NUM_DISCIPLINAS = 40
+NUM_GRUPOS_TCC = 10
 
-# Listas para armazenar dados
 alunos = []
 professores = []
 cursos = []
@@ -22,7 +20,7 @@ departamentos = []
 disciplinas = []
 grupos_tcc = []
 
-# Gerar cursos
+# Cursos
 for _ in range(NUM_CURSOS):
     cursos.append({
         "_id": str(fake.unique.random_number(digits=5)),
@@ -30,7 +28,7 @@ for _ in range(NUM_CURSOS):
         "disciplinas": []
     })
 
-# Gerar departamentos
+# Departamentos
 for _ in range(NUM_DEPARTAMENTOS):
     departamentos.append({
         "_id": str(fake.unique.random_number(digits=4)),
@@ -38,7 +36,7 @@ for _ in range(NUM_DEPARTAMENTOS):
         "chefe": None
     })
 
-# Gerar disciplinas e associar a cursos e departamentos
+# Disciplinas + cursos em que estão + departamentos que estão
 for _ in range(NUM_DISCIPLINAS):
     disciplina_id = str(fake.unique.random_number(digits=6))
     disciplina = {
@@ -49,7 +47,7 @@ for _ in range(NUM_DISCIPLINAS):
     disciplinas.append(disciplina)
     random.choice(cursos)["disciplinas"].append(disciplina_id)
 
-# Gerar professores e associar a disciplinas
+# Professores + disciplinas ministradas
 for _ in range(NUM_PROFESSORES):
     professor_id = str(fake.unique.random_number(digits=5))
     professor = {
@@ -65,13 +63,13 @@ for _ in range(NUM_PROFESSORES):
     }
     professores.append(professor)
 
-# Atribuir chefes aos departamentos
+# Chefe dos departamentos
 for departamento in departamentos:
     chefe = random.choice(professores)
     departamento["chefe"] = chefe["_id"]
     chefe["departamento"] = departamento["_id"]
 
-# Gerar alunos e associar a cursos e disciplinas
+# Alunos + cursos + disciplinas
 for _ in range(NUM_ALUNOS):
     curso = random.choice(cursos)
     aluno = {
@@ -90,7 +88,7 @@ for _ in range(NUM_ALUNOS):
     }
     alunos.append(aluno)
 
-# Gerar grupos de TCC e associar a alunos e professores
+# Grupos de TCC + alunos + professores
 for _ in range(NUM_GRUPOS_TCC):
     grupo_id = str(fake.unique.random_number(digits=3))
     grupo = {
@@ -107,12 +105,10 @@ for _ in range(NUM_GRUPOS_TCC):
             "orientador": grupo["orientador"]
         }
 
-# Função para escrever dados em arquivos JSON
 def write_json(filename, data):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
 
-# Escrever dados em arquivos JSON
 write_json('alunos.json', alunos)
 write_json('professores.json', professores)
 write_json('cursos.json', cursos)
@@ -120,7 +116,7 @@ write_json('departamentos.json', departamentos)
 write_json('disciplinas.json', disciplinas)
 write_json('grupos_tcc.json', grupos_tcc)
 
-print("Dados foram escritos nos arquivos JSON.")
+print("Dados escritos nos arquivos JSON.")
 
 check_execute = input("Deseja executar as queries? (s/n) ")
 if check_execute == "s":
@@ -129,11 +125,9 @@ if check_execute == "s":
 
     uri = cred.split("\n")[0]
 
-    # Conectar ao MongoDB
     client = MongoClient(uri, server_api=ServerApi('1'))
     db = client['faculdade']
 
-    # Inserir dados nas coleções
     db.alunos.insert_many(alunos)
     db.professores.insert_many(professores)
     db.cursos.insert_many(cursos)
@@ -141,7 +135,7 @@ if check_execute == "s":
     db.disciplinas.insert_many(disciplinas)
     db.grupos_tcc.insert_many(grupos_tcc)
 
-    print("Dados foram inseridos no MongoDB.")
+    print("Dados inseridos no MongoDB.")
 
     # Fechar a conexão
     client.close()
