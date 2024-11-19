@@ -1,0 +1,250 @@
+[
+    {
+        "_id": "8197964",
+        "nome": "Alyssa Fuller",
+        "curso": "10531",
+        "disciplinas": [
+            {
+                "codigo": "795618",
+                "ano": 2020,
+                "semestre": 2,
+                "nota": 7.3
+            },
+            {
+                "codigo": "15452",
+                "ano": 2024,
+                "semestre": 1,
+                "nota": 9.4
+            },
+            {
+                "codigo": "498715",
+                "ano": 2022,
+                "semestre": 2,
+                "nota": 5.6
+            },
+            {
+                "codigo": "57548",
+                "ano": 2020,
+                "semestre": 1,
+                "nota": 6.1
+            },
+            {
+                "codigo": "356751",
+                "ano": 2020,
+                "semestre": 1,
+                "nota": 9.7
+            },
+            {
+                "codigo": "57259",
+                "ano": 2024,
+                "semestre": 2,
+                "nota": 6.8
+            },
+            {
+                "codigo": "966893",
+                "ano": 2024,
+                "semestre": 1,
+                "nota": 8.2
+            }
+        ],
+        "tcc": null
+    },
+    {
+        "_id": "5509361",
+        "nome": "Jacqueline Rodriguez",
+        "curso": "15067",
+        "disciplinas": [
+            {
+                "codigo": "871224",
+                "ano": 2023,
+                "semestre": 2,
+                "nota": 6.7
+            }
+        ],
+        "tcc": {
+            "grupo_id": "404",
+            "orientador": "15408"
+        }
+    },
+    {
+        "_id": "7868187",
+        "nome": "William Smith",
+        "curso": "10531",
+        "disciplinas": [
+            {
+                "codigo": "795618",
+                "ano": 2021,
+                "semestre": 1,
+                "nota": 5.6
+            },
+            {
+                "codigo": "15452",
+                "ano": 2023,
+                "semestre": 2,
+                "nota": 9.7
+            },
+            {
+                "codigo": "57548",
+                "ano": 2022,
+                "semestre": 2,
+                "nota": 7.3
+            },
+            {
+                "codigo": "966893",
+                "ano": 2021,
+                "semestre": 2,
+                "nota": 7.7
+            },
+            {
+                "codigo": "57259",
+                "ano": 2020,
+                "semestre": 2,
+                "nota": 5.5
+            }
+        ],
+        "tcc": null
+    },
+    {
+        "_id": "995703",
+        "nome": "Jennifer Morales",
+        "curso": "83436",
+        "disciplinas": [
+            {
+                "codigo": "915425",
+                "ano": 2021,
+                "semestre": 1,
+                "nota": 7.7
+            }
+        ],
+        "tcc": {
+            "grupo_id": "404",
+            "orientador": "15408"
+        }
+    },
+    {
+        "_id": "5586510",
+        "nome": "Lisa Morris",
+        "curso": "83436",
+        "disciplinas": [
+            {
+                "codigo": "915425",
+                "ano": 2024,
+                "semestre": 2,
+                "nota": 7.9
+            }
+        ],
+        "tcc": {
+            "grupo_id": "104",
+            "orientador": "54745"
+        }
+    },
+    {
+        "_id": "4612732",
+        "nome": "John Baldwin",
+        "curso": "10531",
+        "disciplinas": [
+            {
+                "codigo": "57548",
+                "ano": 2021,
+                "semestre": 1,
+                "nota": 7.5
+            },
+            {
+                "codigo": "207256",
+                "ano": 2021,
+                "semestre": 2,
+                "nota": 5.7
+            },
+            {
+                "codigo": "498715",
+                "ano": 2023,
+                "semestre": 2,
+                "nota": 7.2
+            },
+            {
+                "codigo": "356751",
+                "ano": 2021,
+                "semestre": 2,
+                "nota": 9.9
+            },
+            {
+                "codigo": "15452",
+                "ano": 2021,
+                "semestre": 2,
+                "nota": 7.0
+            },
+            {
+                "codigo": "795618",
+                "ano": 2020,
+                "semestre": 1,
+                "nota": 8.9
+            }
+        ],
+        "tcc": null
+    },
+    {
+        "_id": "1852537",
+        "nome": "Sue Rose MD",
+        "curso": "15067",
+        "disciplinas": [
+            {
+                "codigo": "871224",
+                "ano": 2020,
+                "semestre": 1,
+                "nota": 9.3
+            }
+        ],
+        "tcc": {
+            "grupo_id": "89",
+            "orientador": "55899"
+        }
+    },
+    {
+        "_id": "661449",
+        "nome": "Shelby Graham",
+        "curso": "83436",
+        "disciplinas": [
+            {
+                "codigo": "915425",
+                "ano": 2020,
+                "semestre": 2,
+                "nota": 9.2
+            }
+        ],
+        "tcc": {
+            "grupo_id": "89",
+            "orientador": "55899"
+        }
+    },
+    {
+        "_id": "1180526",
+        "nome": "Jason Black",
+        "curso": "15067",
+        "disciplinas": [
+            {
+                "codigo": "871224",
+                "ano": 2024,
+                "semestre": 1,
+                "nota": 5.1
+            }
+        ],
+        "tcc": null
+    },
+    {
+        "_id": "1809953",
+        "nome": "Vanessa Anderson",
+        "curso": "15067",
+        "disciplinas": [
+            {
+                "codigo": "871224",
+                "ano": 2021,
+                "semestre": 2,
+                "nota": 7.8
+            }
+        ],
+        "tcc": {
+            "grupo_id": "404",
+            "orientador": "15408"
+        }
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+        "_id": "88480",
+        "nome": "Michael Cox",
+        "disciplinas": [
+            {
+                "codigo": "57548",
+                "ano": 2022,
+                "semestre": 2
+            },
+            {
+                "codigo": "498715",
+                "ano": 2024,
+                "semestre": 1
+            },
+            {
+                "codigo": "795618",
+                "ano": 2022,
+                "semestre": 1
+            }
+        ]
+    },
+    {
+        "_id": "15408",
+        "nome": "William Cline",
+        "disciplinas": [
+            {
+                "codigo": "871224",
+                "ano": 2024,
+                "semestre": 2
+            },
+            {
+                "codigo": "57548",
+                "ano": 2024,
+                "semestre": 1
+            },
+            {
+                "codigo": "356751",
+                "ano": 2021,
+                "semestre": 1
+            }
+        ]
+    },
+    {
+        "_id": "54745",
+        "nome": "Amy Flores",
+        "disciplinas": [
+            {
+                "codigo": "915425",
+                "ano": 2024,
+                "semestre": 2
+            },
+            {
+                "codigo": "57548",
+                "ano": 2020,
+                "semestre": 2
+            },
+            {
+                "codigo": "356751",
+                "ano": 2021,
+                "semestre": 2
+            }
+        ],
+        "departamento": "8962"
+    },
+    {
+        "_id": "55899",
+        "nome": "Michael Wilson",
+        "disciplinas": [
+            {
+                "codigo": "498715",
+                "ano": 2024,
+                "semestre": 2
+            }
+        ]
+    },
+    {
+        "_id": "52346",
+        "nome": "Shelley King",
+        "disciplinas": [
+            {
+                "codigo": "795618",
+                "ano": 2022,
+                "semestre": 2
+            }
+        ]
+    }
+]

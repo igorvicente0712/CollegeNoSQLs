@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "83436",
+        "nome": "Pensions consultant",
+        "disciplinas": [
+            "915425"
+        ]
+    },
+    {
+        "_id": "15067",
+        "nome": "Phytotherapist",
+        "disciplinas": [
+            "871224"
+        ]
+    },
+    {
+        "_id": "10531",
+        "nome": "Economist",
+        "disciplinas": [
+            "966893",
+            "57259",
+            "15452",
+            "498715",
+            "57548",
+            "795618",
+            "356751",
+            "207256"
+        ]
+    }
+]

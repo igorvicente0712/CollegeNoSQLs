@@ -1,0 +1,179 @@
+[
+    {
+        "_id": "89",
+        "ano": 2020,
+        "semestre": 2,
+        "alunos": [
+            {
+                "_id": "5586510",
+                "nome": "Lisa Morris",
+                "curso": "83436",
+                "disciplinas": [
+                    {
+                        "codigo": "915425",
+                        "ano": 2024,
+                        "semestre": 2,
+                        "nota": 7.9
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "104",
+                    "orientador": "54745"
+                }
+            },
+            {
+                "_id": "1852537",
+                "nome": "Sue Rose MD",
+                "curso": "15067",
+                "disciplinas": [
+                    {
+                        "codigo": "871224",
+                        "ano": 2020,
+                        "semestre": 1,
+                        "nota": 9.3
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "89",
+                    "orientador": "55899"
+                }
+            },
+            {
+                "_id": "661449",
+                "nome": "Shelby Graham",
+                "curso": "83436",
+                "disciplinas": [
+                    {
+                        "codigo": "915425",
+                        "ano": 2020,
+                        "semestre": 2,
+                        "nota": 9.2
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "89",
+                    "orientador": "55899"
+                }
+            }
+        ],
+        "orientador": "55899"
+    },
+    {
+        "_id": "104",
+        "ano": 2020,
+        "semestre": 2,
+        "alunos": [
+            {
+                "_id": "5509361",
+                "nome": "Jacqueline Rodriguez",
+                "curso": "15067",
+                "disciplinas": [
+                    {
+                        "codigo": "871224",
+                        "ano": 2023,
+                        "semestre": 2,
+                        "nota": 6.7
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "404",
+                    "orientador": "15408"
+                }
+            },
+            {
+                "_id": "995703",
+                "nome": "Jennifer Morales",
+                "curso": "83436",
+                "disciplinas": [
+                    {
+                        "codigo": "915425",
+                        "ano": 2021,
+                        "semestre": 1,
+                        "nota": 7.7
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "404",
+                    "orientador": "15408"
+                }
+            },
+            {
+                "_id": "5586510",
+                "nome": "Lisa Morris",
+                "curso": "83436",
+                "disciplinas": [
+                    {
+                        "codigo": "915425",
+                        "ano": 2024,
+                        "semestre": 2,
+                        "nota": 7.9
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "104",
+                    "orientador": "54745"
+                }
+            }
+        ],
+        "orientador": "54745"
+    },
+    {
+        "_id": "404",
+        "ano": 2020,
+        "semestre": 2,
+        "alunos": [
+            {
+                "_id": "1809953",
+                "nome": "Vanessa Anderson",
+                "curso": "15067",
+                "disciplinas": [
+                    {
+                        "codigo": "871224",
+                        "ano": 2021,
+                        "semestre": 2,
+                        "nota": 7.8
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "404",
+                    "orientador": "15408"
+                }
+            },
+            {
+                "_id": "995703",
+                "nome": "Jennifer Morales",
+                "curso": "83436",
+                "disciplinas": [
+                    {
+                        "codigo": "915425",
+                        "ano": 2021,
+                        "semestre": 1,
+                        "nota": 7.7
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "404",
+                    "orientador": "15408"
+                }
+            },
+            {
+                "_id": "5509361",
+                "nome": "Jacqueline Rodriguez",
+                "curso": "15067",
+                "disciplinas": [
+                    {
+                        "codigo": "871224",
+                        "ano": 2023,
+                        "semestre": 2,
+                        "nota": 6.7
+                    }
+                ],
+                "tcc": {
+                    "grupo_id": "404",
+                    "orientador": "15408"
+                }
+            }
+        ],
+        "orientador": "15408"
+    }
+]
